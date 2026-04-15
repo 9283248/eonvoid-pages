@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neon Void - Legal</title>
+    <title>Games by Dmitriy Migunov</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -20,47 +20,73 @@
             padding: 40px;
         }
         h1 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: #00f2ff;
             text-shadow: 0 0 20px rgba(0,242,255,0.5);
-            margin-bottom: 10px;
-            letter-spacing: 8px;
+            margin-bottom: 8px;
+            letter-spacing: 6px;
         }
         .subtitle {
-            color: #ff00de;
-            font-size: 0.9rem;
-            letter-spacing: 4px;
-            margin-bottom: 40px;
+            color: #888;
+            font-size: 0.85rem;
+            letter-spacing: 3px;
+            margin-bottom: 48px;
         }
-        .links {
+        .games {
             display: flex;
             flex-direction: column;
-            gap: 16px;
+            gap: 20px;
             align-items: center;
         }
-        a {
-            color: #00f2ff;
+        .game-card {
+            display: block;
+            color: #fff;
             text-decoration: none;
-            padding: 12px 32px;
-            border: 1px solid rgba(0,242,255,0.3);
-            border-radius: 4px;
+            padding: 20px 40px;
+            border: 1px solid rgba(0,242,255,0.2);
+            border-radius: 8px;
             transition: all 0.3s;
             letter-spacing: 2px;
-            font-size: 0.9rem;
+            font-size: 1rem;
+            min-width: 280px;
+            background: rgba(0,242,255,0.03);
         }
-        a:hover {
+        .game-card:hover {
             background: rgba(0,242,255,0.1);
-            box-shadow: 0 0 15px rgba(0,242,255,0.2);
+            box-shadow: 0 0 20px rgba(0,242,255,0.15);
+            border-color: rgba(0,242,255,0.5);
+        }
+        .game-card .name {
+            color: #00f2ff;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        .game-card .desc {
+            color: #888;
+            font-size: 0.75rem;
+            margin-top: 6px;
+            letter-spacing: 1px;
+        }
+        .footer {
+            margin-top: 60px;
+            color: #444;
+            font-size: 0.75rem;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>NEON VOID</h1>
-        <p class="subtitle">LEGAL INFORMATION</p>
-        <div class="links">
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of Use</a>
+        <h1>GAMES</h1>
+        <p class="subtitle">by Dmitriy Migunov</p>
+        <div class="games">
+            <a href="neonvoid/" class="game-card">
+                <div class="name">NEON VOID</div>
+                <div class="desc">Arcade Space Shooter</div>
+            </a>
+            <!-- New games will be added here -->
+        </div>
+        <div class="footer">
+            <p>&copy; 2026 Dmitriy Migunov</p>
         </div>
     </div>
 </body>
