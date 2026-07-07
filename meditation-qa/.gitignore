@@ -1,0 +1,5 @@
+# Сгенерированные демо-артефакты
+examples/*.wav
+examples/report.json
+__pycache__/
+*.pyc
