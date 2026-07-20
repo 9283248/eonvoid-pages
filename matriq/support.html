@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matriq - Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F2EFE6;--ink:#16151A;--line:#D8D3C4;--muted:#8C8878;--text:#57545E;
+--s1:#6B5BD6;--s2:#4E9CF5;--s3:#35C7CE;--s4:#5BC08A;--s5:#E8B24A;--s6:#F0765E;}
+*{margin:0;padding:0;box-sizing:border-box;border-radius:0}
+body{background:var(--paper);color:var(--ink);font-family:"Space Grotesk",-apple-system,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+.rail{display:flex;height:6px}
+.rail i{flex:1}
+.rail i:nth-child(1){background:var(--s1)}.rail i:nth-child(2){background:var(--s2)}.rail i:nth-child(3){background:var(--s3)}
+.rail i:nth-child(4){background:var(--s4)}.rail i:nth-child(5){background:var(--s5)}.rail i:nth-child(6){background:var(--s6)}
+.head{border-bottom:1.5px solid var(--ink);padding:52px 24px 26px}
+.head .in{max-width:640px;margin:0 auto}
+.mark{font-size:1.6rem;font-weight:700;letter-spacing:.16em;line-height:1}
+.mark a{color:var(--ink);text-decoration:none}
+.chip{display:inline-block;margin-top:14px;background:var(--ink);color:var(--paper);font-family:"Space Mono",ui-monospace,monospace;font-size:.64rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;padding:6px 12px}
+.wrap{max-width:640px;margin:0 auto;padding:34px 24px 72px}
+.contact{position:relative;border:1.5px solid var(--ink);padding:30px 22px 24px}
+.contact>.tag{position:absolute;top:-9px;left:16px;background:var(--paper);padding:0 8px;font-family:"Space Mono",ui-monospace,monospace;font-size:.62rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.contact p{font-size:.94rem;color:var(--text);margin-bottom:16px}
+.cta{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;padding:13px 22px;font-family:"Space Mono",ui-monospace,monospace;font-size:.74rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.cta:hover{background:var(--s1)}
+h2.sec{font-family:"Space Mono",ui-monospace,monospace;font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:46px 0 18px;padding-bottom:10px;border-bottom:1.5px solid var(--line)}
+.q{margin-top:26px}
+.q h3{font-size:1rem;font-weight:700;display:flex;align-items:flex-start;gap:10px;margin-bottom:8px}
+.q h3::before{content:"";width:14px;height:14px;flex:none;margin-top:.32em;background:var(--s1)}
+.q:nth-of-type(3) h3::before{background:var(--s2)}
+.q:nth-of-type(4) h3::before{background:var(--s3)}
+.q:nth-of-type(5) h3::before{background:var(--s4)}
+.q:nth-of-type(6) h3::before{background:var(--s5)}
+.q:nth-of-type(7) h3::before{background:var(--s6)}
+.q p{font-size:.94rem;color:var(--text);margin-bottom:10px;padding-left:24px}
+strong{color:var(--ink);font-weight:700}
+a{color:var(--ink)}
+.note{margin-top:44px;background:var(--ink);color:var(--paper);padding:20px 22px;border-left:6px solid var(--s1)}
+.note p{font-family:"Space Mono",ui-monospace,monospace;font-size:.76rem;line-height:1.7;color:var(--paper);margin:0}
+.back{display:inline-block;margin-top:40px;border:1.5px solid var(--ink);padding:11px 20px;color:var(--ink);text-decoration:none;font-family:"Space Mono",ui-monospace,monospace;font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.back:hover{background:var(--ink);color:var(--paper)}
+</style></head>
+<body>
+<div class="rail"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<div class="head"><div class="in"><h1 class="mark"><a href="index.html">MATRIQ</a></h1><div class="chip">Support</div></div></div>
+<div class="wrap">
+
+<div class="contact"><span class="tag">Contact</span>
+<p>Something broken, or a task that looks wrong? Write to us — we usually reply within 48 hours.</p>
+<a class="cta" href="mailto:9283248@gmail.com">9283248@gmail.com</a>
+</div>
+
+<h2 class="sec">Frequently asked</h2>
+
+<div class="q">
+<h3>How is the score calculated?</h3>
+<p>Matriq uses an item-response model (Rasch, corrected for guessing). Each task carries an estimated difficulty; your answers move an ability estimate up or down, and the test adapts by picking the next task near your current level. The estimate is then mapped onto a 100 &plusmn; 15 scale and shown together with a confidence range, because a 20-task test cannot be more precise than roughly &plusmn;13 points. Speed does not affect the score. The model is calibrated on this app's own task bank.</p>
+</div>
+
+<div class="q">
+<h3>Why do the tasks never repeat?</h3>
+<p>There is no question bank inside Matriq. Every matrix, analogy, sequence, odd-one-out and number series is drawn by an algorithm at the moment you see it, from a random seed. That is why the test cannot be memorized or looked up — and why a retest is a genuine new test rather than the same questions again.</p>
+</div>
+
+<div class="q">
+<h3>What is free and what does Pro unlock?</h3>
+<p>Free: the full 20-task test, your score, the confidence range and your facet profile, an explanation for the first 3 tasks, and the first two chapters of the scale. <strong>Matriq Pro is a one-time purchase</strong> that unlocks a step-by-step explanation for every task, the remaining chapters, unlimited practice and attempt history. There is no subscription.</p>
+</div>
+
+<div class="q">
+<h3>How do I restore my purchase?</h3>
+<p>On a new device, or after reinstalling: open Settings inside the app and tap <strong>Restore Purchases</strong>, signed in with the same Apple ID used for the purchase. The purchase is permanent and does not expire.</p>
+</div>
+
+<div class="q">
+<h3>A task looks wrong or has two possible answers. What do I do?</h3>
+<p>Use <strong>Settings &rarr; Report this question</strong> (also available from the explanation screen). It opens your mail app with the task type and its seed already filled in — that seed lets us reproduce the exact task and fix the generator. Sending the message as-is is enough.</p>
+</div>
+
+<div class="q">
+<h3>Does the app work offline, and where is my data?</h3>
+<p>Yes, entirely — tasks are generated on the device. Attempts, progress and settings are stored only on your iPhone and never leave it; the app has no account and no server. See the <a href="privacy.html">privacy policy</a>.</p>
+</div>
+
+<div class="note"><p>Matriq gives an IQ-style estimate for practice and entertainment. It is not a clinical assessment.</p></div>
+
+<a class="back" href="index.html">&larr; Back</a>
+</div>
+</body></html>

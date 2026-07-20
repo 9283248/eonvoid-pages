@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matriq - IQ-style Logic Test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F2EFE6;--ink:#16151A;--line:#D8D3C4;--muted:#8C8878;--text:#57545E;
+--s1:#6B5BD6;--s2:#4E9CF5;--s3:#35C7CE;--s4:#5BC08A;--s5:#E8B24A;--s6:#F0765E;}
+*{margin:0;padding:0;box-sizing:border-box;border-radius:0}
+body{background:var(--paper);color:var(--ink);font-family:"Space Grotesk",-apple-system,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+.rail{display:flex;height:6px}
+.rail i{flex:1}
+.rail i:nth-child(1){background:var(--s1)}.rail i:nth-child(2){background:var(--s2)}.rail i:nth-child(3){background:var(--s3)}
+.rail i:nth-child(4){background:var(--s4)}.rail i:nth-child(5){background:var(--s5)}.rail i:nth-child(6){background:var(--s6)}
+.wrap{max-width:640px;margin:0 auto;padding:64px 24px 72px}
+.mark{font-size:2.4rem;font-weight:700;letter-spacing:.16em;line-height:1}
+.chip{display:inline-block;margin-top:16px;background:var(--ink);color:var(--paper);font-family:"Space Mono",ui-monospace,monospace;font-size:.66rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;padding:6px 12px}
+.lede{margin:30px 0 0;font-size:1rem;color:var(--text)}
+.panel{position:relative;border:1.5px solid var(--ink);padding:30px 22px 24px;margin:44px 0 0}
+.panel>.tag{position:absolute;top:-9px;left:16px;background:var(--paper);padding:0 8px;font-family:"Space Mono",ui-monospace,monospace;font-size:.62rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.facets{display:flex;flex-direction:column;gap:12px}
+.facet{display:flex;align-items:center;gap:12px;font-family:"Space Mono",ui-monospace,monospace;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text)}
+.facet b{display:block;width:22px;height:10px;flex:none}
+.facet:nth-child(1) b{background:var(--s1)}.facet:nth-child(2) b{background:var(--s2)}.facet:nth-child(3) b{background:var(--s3)}
+.facet:nth-child(4) b{background:var(--s4)}.facet:nth-child(5) b{background:var(--s5)}
+.links{display:flex;flex-direction:column;gap:0;margin-top:44px;border:1.5px solid var(--ink);border-bottom:none}
+.links a{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-bottom:1.5px solid var(--ink);color:var(--ink);text-decoration:none;font-family:"Space Mono",ui-monospace,monospace;font-size:.76rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.links a span{color:var(--muted);font-weight:400}
+.links a:hover{background:var(--ink);color:var(--paper)}
+.links a:hover span{color:var(--paper)}
+.note{margin-top:36px;background:var(--ink);color:var(--paper);padding:20px 22px;border-left:6px solid var(--s1)}
+.note p{font-family:"Space Mono",ui-monospace,monospace;font-size:.76rem;line-height:1.7}
+.foot{margin-top:44px;font-family:"Space Mono",ui-monospace,monospace;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.foot a{color:var(--muted)}
+</style></head>
+<body>
+<div class="rail"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<div class="wrap">
+  <h1 class="mark">MATRIQ</h1>
+  <div class="chip">IQ-style logic test</div>
+  <p class="lede">A logic test that is generated, not memorized. Twenty tasks, an IQ-style score with a confidence range, and a spectrum of your reasoning facets. Works fully offline, no account, no data collected.</p>
+
+  <div class="panel"><span class="tag">Facets measured</span>
+    <div class="facets">
+      <div class="facet"><b></b>Matrix logic</div>
+      <div class="facet"><b></b>Figure analogy</div>
+      <div class="facet"><b></b>Sequence</div>
+      <div class="facet"><b></b>Odd one out</div>
+      <div class="facet"><b></b>Number series</div>
+    </div>
+  </div>
+
+  <div class="links">
+    <a href="privacy.html">Privacy policy <span>&rarr;</span></a>
+    <a href="terms.html">Terms of use <span>&rarr;</span></a>
+    <a href="support.html">Support &amp; FAQ <span>&rarr;</span></a>
+  </div>
+
+  <div class="note"><p>Matriq gives an IQ-style estimate for practice and entertainment. It is not a clinical assessment.</p></div>
+
+  <p class="foot">&copy; 2026 Dmitriy Migunov &middot; <a href="mailto:9283248@gmail.com">9283248@gmail.com</a></p>
+</div>
+</body></html>
