@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steady — Support</title>
+<style>
+:root{--bg:#0e1114;--bg2:#06080a;--paper:#F2F5F7;--mint:#4FE3B0;--mint2:#12AB8C;--muted:#8C939A;--line:#1b2026;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg2);color:var(--paper);line-height:1.7;-webkit-font-smoothing:antialiased;
+  font-family:-apple-system,'Helvetica Neue',Arial,sans-serif}
+header{background:radial-gradient(120% 120% at 50% 20%,#141a1f,var(--bg2));padding:60px 24px 44px;text-align:center}
+header .in{max-width:660px;margin:0 auto}
+.fork{width:64px;height:64px;margin:0 auto 18px}
+.mark{font-size:2rem;font-weight:800;letter-spacing:-.02em}
+.mark a{color:var(--paper);text-decoration:none}
+.chip{display:inline-block;margin-top:16px;border:1px solid rgba(242,245,247,.28);border-radius:100px;
+  padding:6px 16px;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+main{max-width:660px;margin:0 auto;padding:34px 24px 80px}
+.date{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);
+  padding-bottom:20px;border-bottom:1px solid var(--line)}
+section{margin-top:30px}
+h2{font-size:1.18rem;margin-bottom:10px}
+p{font-size:.97rem;margin-bottom:12px;color:#BFC6CC}
+ul{margin:6px 0 14px 0;list-style:none}
+li{position:relative;padding-left:22px;margin-bottom:8px;color:#BFC6CC;font-size:.97rem}
+li::before{content:"\2014";position:absolute;left:0;color:var(--mint)}
+a{color:var(--mint)}
+.note{margin-top:34px;background:linear-gradient(120deg,#10201d,#0d1a22);
+  padding:22px 24px;border-radius:14px;border:1px solid var(--line)}
+.note p{color:rgba(242,245,247,.94);margin:0;font-size:.92rem}
+.back{display:inline-block;margin-top:32px;border:1.5px solid var(--paper);border-radius:100px;
+  padding:11px 22px;color:var(--paper);text-decoration:none;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}
+footer{border-top:1px solid var(--line);padding:26px 24px;text-align:center;color:var(--muted);font-size:.8rem}
+footer a{color:var(--muted)}
+</style></head><body>
+<header><div class="in">
+  <svg class="fork" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g stroke="#4FE3B0" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<path d="M33 18 L33 50 C33 62, 67 62, 67 50 L67 18"/><path d="M50 60 L50 84"/></g></svg>
+  <div class="mark"><a href="index.html">Steady</a></div>
+  <div class="chip">Support</div>
+</div></header>
+<main>
+<div class="date">Last updated 12 August 2026</div>
+
+<section><h2>Getting started</h2>
+<p>Open Steady and play a note — the tuner is already listening. Pick your instrument at the bottom
+of the screen, or stay in Chromatic mode and it will name whatever it hears.</p></section>
+
+<section><h2>Why does it say “an octave below” instead of pointing up?</h2>
+<p>Because that is the moment other tuners break strings. When a lower string is ringing
+sympathetically, or the detector latches onto a low harmonic, a tuner that simply draws an arrow
+sends you tightening a peg you should not be touching. Steady checks the octave first and, when the
+note you are playing is a whole octave under the target, tells you so in words instead. Check you
+are on the string you think you are on.</p></section>
+
+<section><h2>The reading looks unstable</h2>
+<ul>
+<li>Play a single string and let it ring — chords have no single pitch to report.</li>
+<li>Move away from fans, air conditioning and other constant noise.</li>
+<li>Hold the phone within about half a metre of the instrument.</li>
+<li>On a very worn or very dead string the pitch genuinely wanders; that is the string, not the app.</li>
+</ul></section>
+
+<section><h2>The metronome drifts / does not start</h2>
+<p>Steady schedules its click by counting audio frames, so it does not drift. If nothing is audible,
+check the silent switch on the side of the phone and make sure Silent mode (Pro) is off — that mode
+mutes the click deliberately and leaves only the haptic beat.</p></section>
+
+<section><h2>Steady Pro</h2>
+<p>One payment, no subscription, no renewal. It unlocks the strobe display, alternate tunings,
+custom reference pitch, silent haptic practice, subdivisions, odd meters and the tempo trainer.
+Everything else — the chromatic tuner, four instruments, the metronome and the haptic beat — is free
+and stays free.</p>
+<p>Changed phone, or reinstalled? Open <strong>Settings → Restore Purchases</strong> and sign in with
+the same Apple Account you bought it on.</p></section>
+
+<section><h2>Does it need the internet?</h2>
+<p>No. Steady makes no network requests at all. It works in airplane mode, on a plane, in a
+basement, forever.</p></section>
+
+<div class="note"><p><strong>Something else?</strong> Write to
+<a href="mailto:9283248@gmail.com">9283248@gmail.com</a> — include your iPhone model and iOS version
+and you will get a real answer, usually within a day.</p></div>
+
+<a class="back" href="index.html">← Steady</a>
+</main>
+<footer>Tuner &amp; Metronome — Steady · <a href="mailto:9283248@gmail.com">9283248@gmail.com</a></footer>
+</body></html>
