@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Продам планету — поддержка</title><style>
+:root{--indigo:#13152D;--card:#1E2145;--cream:#F6ECDC;--soft:#B9B3C9;--line:#2E3158;--orange:#E8743B;--teal:#4FB0A5;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--indigo);color:var(--cream);line-height:1.7;-webkit-font-smoothing:antialiased;
+  font-family:-apple-system,'Helvetica Neue',Arial,sans-serif}
+header{background:radial-gradient(circle at 50% 0%,#232653,var(--indigo) 70%);padding:64px 24px 48px;text-align:center}
+.planet{width:64px;height:64px;border-radius:50%;background:var(--orange);margin:0 auto 8px;position:relative;
+  box-shadow:0 0 40px rgba(232,116,59,.4)}
+.planet::after{content:"";position:absolute;left:-14px;right:-14px;top:50%;height:14px;margin-top:-7px;
+  border:2px solid var(--teal);border-radius:50%;transform:rotate(-14deg)}
+.mark{font-family:'New York',Georgia,serif;font-size:2.2rem;font-weight:700;margin-top:14px}
+.mark a{color:var(--cream);text-decoration:none}
+.tag{margin-top:8px;color:var(--orange);font-style:italic;font-family:Georgia,serif}
+.chip{display:inline-block;margin-top:18px;border:1px solid rgba(246,236,220,.35);border-radius:100px;
+  padding:6px 16px;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--soft)}
+main{max-width:680px;margin:0 auto;padding:36px 24px 80px}
+.date{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);
+  padding-bottom:20px;border-bottom:1px solid var(--line)}
+section{margin-top:30px}
+h2{font-family:'New York',Georgia,serif;font-size:1.3rem;margin-bottom:10px;color:var(--cream)}
+p{font-size:1rem;margin-bottom:12px;color:var(--soft)}
+ul{margin:6px 0 14px 0;list-style:none}
+li{position:relative;padding-left:22px;margin-bottom:8px;color:var(--soft)}
+li::before{content:"\2726";position:absolute;left:0;color:var(--orange)}
+a{color:var(--teal)}
+.note{margin-top:34px;background:var(--card);padding:22px 24px;border-radius:14px;border:1px solid var(--line)}
+.note p{margin:0;font-size:.95rem}
+.en{margin-top:26px;padding:18px 22px;border-left:3px solid var(--orange);background:var(--card);border-radius:0 12px 12px 0}
+.en p{font-size:.92rem;margin:0}
+.back{display:inline-block;margin-top:32px;border:1.5px solid var(--cream);border-radius:100px;
+  padding:11px 22px;color:var(--cream);text-decoration:none;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase}
+footer{border-top:1px solid var(--line);padding:26px 24px;text-align:center;color:var(--soft);font-size:.8rem}
+footer a{color:var(--soft)}
+</style></head><body>
+<header>
+  <div class="planet"></div>
+  <div class="mark"><a href="index.html">Продам планету</a></div>
+  <div class="tag">Б/у, торг уместен</div>
+  <div class="chip">Поддержка</div>
+</header>
+<main>
+  <div class="date">Обновлено: 20 августа 2026</div>
+
+  <section>
+    <h2>Поддержка</h2>
+    <p>Что-то не работает, не восстановилась покупка, нашли опечатку в книге или хотите
+    просто сказать пару слов автору — пишите:
+    <a href="mailto:9283248@gmail.com">9283248@gmail.com</a>. Отвечаем в течение 1–2 дней.</p>
+  </section>
+
+  <section>
+    <h2>Частые вопросы</h2>
+    <ul>
+      <li><b>Купил книгу, а главы закрыты.</b> Нажмите «Восстановить покупки» на экране покупки — покупка привязана к вашему Apple ID.</li>
+      <li><b>Можно читать на другом iPhone?</b> Да: установите приложение под тем же Apple ID и восстановите покупку.</li>
+      <li><b>Это подписка?</b> Нет. Разовая покупка, книга остаётся навсегда.</li>
+      <li><b>Как поменять шрифт или тему?</b> В читалке — кнопка «Aa»: темы, шрифт, размер, интервалы, листание/скролл.</li>
+    </ul>
+  </section>
+
+  <div class="note">
+    <p>Бумажную и электронную версию книги можно найти на
+    <a href="https://www.litres.ru/book/dmitriy-migunov/prodam-planetu-b-u-torg-umesten-73885716/">ЛитРес</a>.</p>
+  </div>
+
+  <a class="back" href="index.html">&larr; Ко всем страницам</a>
+</main>
+<footer>&copy; 2026 Dmitriy Migunov &middot; <a href="mailto:9283248@gmail.com">9283248@gmail.com</a></footer>
+</body></html>
