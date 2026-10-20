@@ -71,32 +71,33 @@
         <p class="sub">PRIVACY POLICY</p>
     </div>
     <div class="content">
-        <p class="date">Last updated: May 31, 2026</p>
+        <p class="date">Last updated: October 20, 2026</p>
 
         <h2>1. Introduction</h2>
-        <p>Art Scanner ("the App") helps artists capture their artwork in high quality and showcase it in interiors. Your artwork is your most valuable asset, and protecting it is central to how the App is built. This Policy explains what we process and why.</p>
+        <p>Art Scanner ("the App") helps artists photograph their artwork straight and to scale, show it on walls and make cards, certificates and portfolios. Your artwork is your most valuable asset, and keeping it on your device is central to how the App is built. This Policy explains what the App processes, where, and why.</p>
 
-        <h2>2. What We Process</h2>
-        <p><strong>Camera and photos.</strong> The App uses your camera to photograph artwork, and — only if you choose to import — your photo library. Capture and basic on-device steps (edge detection, cropping, geometry) happen locally on your device.</p>
-        <p><strong>Artwork images for enhancement.</strong> To produce the enhanced "master" of a scan (glare reduction, color calibration, stitching), an image may be processed on our secure servers. Your full-resolution originals stay on your device; only the data needed for the current job is uploaded, and it is deleted from our processing servers after the job completes.</p>
-        <p><strong>AI interior generation (optional, Pro).</strong> When you ask the App to generate an AI interior around your artwork, the selected image is sent to a third-party AI image-processing provider solely to create the image you requested. Your artwork is <strong>not</strong> used to train AI models and is not retained by the provider beyond what is needed to return the result.</p>
-        <p><strong>Account (optional).</strong> If you sign in (e.g. Sign in with Apple) to back up or sync your library, we store only minimal account identifiers needed for that purpose.</p>
-        <p>We do <strong>not</strong> sell your data or your artwork, and we do <strong>not</strong> use your artwork to train any models.</p>
+        <h2>2. What Happens on Your Device</h2>
+        <p><strong>Camera.</strong> The App uses the camera to photograph artwork. Finding the artwork's edges (with a neural network that runs on the device), straightening it, correcting colours, measuring its size with the camera or LiDAR, mockups in rooms and try-on on your wall all happen on your device.</p>
+        <p><strong>Photos.</strong> The App only adds images to your photo library when you ask it to save one. It does not read your library.</p>
+        <p><strong>Your library and profile.</strong> Your artworks, their details (title, technique, size, price, status, buyer) and the artist profile you fill in for documents (name, bio, contacts) are stored on your device and are not uploaded. Deleting the App deletes them.</p>
 
-        <h2>3. Shareable Preview Links</h2>
-        <p>If you create a shareable "view in a room" link to send a piece to a collector, the linked preview image is hosted so anyone with the link can view it. You control whether to create such a link, and you can revoke or delete it at any time.</p>
+        <h2>3. AI Descriptions (optional)</h2>
+        <p>When you allow it (the App asks once) or tap "Describe with AI", a reduced copy of the artwork picture (about 768 pixels) and the details you entered (title, technique, year, size) are sent to our server and from there to <strong>Google Gemini on Google Cloud Vertex AI</strong>, which writes a title, the technique and a short description. The result comes back to your device.</p>
+        <p>Neither we nor our server keep the picture or the text. Google processes the request under its Google Cloud terms and states that it does not use this data to train its models. To limit use, our server counts requests per day for a random installation identifier; it does not know who you are.</p>
+        <p>On devices where Apple's on-device model can describe images, the description is written on the device and nothing leaves it.</p>
+        <p>To make sure requests come from the genuine App, it uses Apple's App Attest service.</p>
 
-        <h2>4. Data Stored on Your Device</h2>
-        <p>Your artworks, enhanced masters, metadata (such as titles, sizes, materials, price, sale status), and app preferences are stored locally on your device. Original high-resolution files remain on the device unless you explicitly enable cloud backup.</p>
+        <h2>4. Anonymous Usage Counts</h2>
+        <p>To improve the welcome screens and the subscription screen, the App counts, once per installation and with a random identifier, which version of these screens was shown and whether it was continued, purchased or closed. No name, contact, device identifier, location or artwork is sent. Subscription starts are matched to these counts through Apple's App Store notifications, which contain no personal data.</p>
 
         <h2>5. Third-Party Services</h2>
-        <p>The App relies on a limited set of providers: secure cloud processing for image enhancement, a third-party AI provider for optional interior generation, and Apple for in-app purchases. The App does <strong>not</strong> include third-party advertising networks or cross-app tracking.</p>
+        <p>Apple (App Store purchases, App Attest), Cloudflare (hosts our small server), and Google Cloud Vertex AI (AI descriptions only). The App contains <strong>no</strong> advertising and <strong>no</strong> cross-app tracking. We do not sell any data, and we do not use your artwork to train any models.</p>
 
         <h2>6. Data Retention and Deletion</h2>
-        <p>Images sent for server processing are deleted after the job completes. You may request deletion of any data associated with you, and you can delete your account from within the App. Contact us at the address below for any data request.</p>
+        <p>Pictures and details sent for an AI description are not stored. Usage counts are kept as totals per screen version. Everything else stays on your device until you delete it or the App. For any question or data request, contact us at the address below.</p>
 
         <h2>7. In-App Purchases</h2>
-        <p>The App offers an auto-renewing subscription (Pro) through Apple's App Store. Payments are handled entirely by Apple under Apple's privacy policy; we do not receive your payment details.</p>
+        <p>The App offers an auto-renewing subscription (Art Scanner Pro) through Apple's App Store. Payments are handled entirely by Apple under Apple's privacy policy; we do not receive your payment details.</p>
 
         <h2>8. Children's Privacy</h2>
         <p>The App is intended for adult artists and is not directed to children. We do not knowingly collect personal information from children.</p>
